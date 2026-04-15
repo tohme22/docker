@@ -1,0 +1,14 @@
+baseURL = "https://itmt-prof.com/docker/"
+languageCode = "fr-ca"
+DefaultContentLanguage = "fr"
+theme = "hugo-theme-learn"
+[params]
+themeVariant = "blue"
+titleSeparator = ""
+disableLandingPageButton = true
+landingPageURL = "/docker"
+landingPageName = "<i class='fas fa-home'></i> Accueil"
+disableSearch = true
+disableInlineCopyToClipBoard = true
+editURL = ""
+author = "Antoine Tohmé"
