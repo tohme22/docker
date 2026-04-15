@@ -1,7 +1,7 @@
 ---
 title: "Exercice"
 description: "$ docker"
-draft: true
+draft: false
 weight: 2
 ---
 ### Exercice - Création des réseaux docker
