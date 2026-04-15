@@ -5,4 +5,4 @@ draft: false
 
 # Docker
 ***
-![HTTP](/docker/images/logo.png?height=1000,shadow,inline)
+![HTTP](images/logo.png?height=1000,shadow,inline)
