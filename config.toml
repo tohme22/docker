@@ -1,4 +1,4 @@
-baseURL = "https://itmt-prof.com/docker/"
+baseURL = "https://lemon-island-087b60410.7.azurestaticapps.net/"
 languageCode = "fr-ca"
 DefaultContentLanguage = "fr"
 theme = "hugo-theme-learn"
