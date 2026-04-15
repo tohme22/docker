@@ -6,9 +6,10 @@ theme = "hugo-theme-learn"
 themeVariant = "blue"
 titleSeparator = ""
 disableLandingPageButton = true
-landingPageURL = "/docker"
+landingPageURL = "https://lemon-island-087b60410.7.azurestaticapps.net/"
 landingPageName = "<i class='fas fa-home'></i> Accueil"
 disableSearch = true
 disableInlineCopyToClipBoard = true
 editURL = ""
 author = "Antoine Tohmé"
+logo = "images/logo.png"
