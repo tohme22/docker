@@ -13,14 +13,18 @@ jobs:
 
     - name: Checkout Repository
       uses: actions/checkout@v4
+      with:
+        submodules: recursive
+        fetch-depth: 0
 
     - name: Setup Hugo
       uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: 'latest'
+        hugo-version: '0.124.1'
+        extended: true
 
     - name: Build Hugo Site
-      run: hugo
+      run: hugo --minify
 
     - name: Deploy via FTP
       uses: SamKirkland/FTP-Deploy-Action@v4.3.5
