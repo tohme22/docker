@@ -1,4 +1,4 @@
-baseURL = "https://lemon-island-087b60410.7.azurestaticapps.net/"
+baseURL = "hhttps://coursinfo.ca/420-5D4/docker/"
 languageCode = "fr-ca"
 DefaultContentLanguage = "fr"
 theme = "hugo-theme-learn"
@@ -6,10 +6,9 @@ theme = "hugo-theme-learn"
 themeVariant = "blue"
 titleSeparator = ""
 disableLandingPageButton = true
-landingPageURL = "https://lemon-island-087b60410.7.azurestaticapps.net/"
+landingPageURL = "https://coursinfo.ca/420-5D4/docker/"
 landingPageName = "<i class='fas fa-home'></i> Accueil"
 disableSearch = true
 disableInlineCopyToClipBoard = true
 editURL = ""
 author = "Antoine Tohmé"
-logo = "images/logo.png"
