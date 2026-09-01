@@ -44,8 +44,18 @@ Les variables d’environnement permettent de :
 - Changer le comportement du logiciel sans modifier l’image Docker.
 - Stocker des informations comme des mots de passe, clés API, chemins, etc.
 
+#### Exemple 2 : Utilisation des variables d’environnement avec l’option -e (Base de donnée)
 
-#### Exemple 2 : Utilisation des variables d’environnement avec l’option -e
+Example d'utilisation des **variables d'environnement** avec `mysql`
+
+```yaml
+[root@earth]# docker run -d --name mysql -e MYSQL_ROOT_PASSWORD=Password123 -e MYSQL_DATABASE=school mysql
+```
+-e MYSQL_ROOT_PASSWORD=Password123 → Indique à MySQL le mot de passe à configurer pour l’utilisateur root.
+
+-e MYSQL_DATABASE=school → Indique à MySQL de créer automatiquement une base de données nommée "school".
+
+#### Exemple 3 : Utilisation des variables d’environnement avec l’option -e (Web Interface)
 
 Example d'utilisation des **variables d'environnement** avec `jupyter/minimal-notebook`
 
@@ -126,7 +136,7 @@ chown -R jovyan:users /home/jovyan
 ![](../images/env01.png?height=550&classes=border,shadow,inline)
 
 
-#### Exemple 3 : Utilisation d’un fichier d'environnement avec l'option --env-file
+#### Exemple 4 : Utilisation d’un fichier d'environnement avec l'option --env-file
 
 ##### 🔹 Exemple de fichier `.env`
 
