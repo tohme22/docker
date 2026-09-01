@@ -23,20 +23,6 @@ Docker propose plusieurs options pour que les conteneurs stockent des fichiers s
 
 ![](../images/storage-types-of-mounts.jpg)
 
-### Comment attacher les volumes aux conteneurs
-
-Une fois que le volume a été créé, utilisez l’option `-v` lors de la création d’un conteneur pour y attacher ce volume et définir le point de montage. 
-
-Cette option suit la syntaxe : `-v nom_volume:/chemin/dans/le/conteneur.`
-
-Ainsi, les données écrites dans ce répertoire à l’intérieur du conteneur seront stockées de manière persistante dans le volume et resteront disponibles même si le conteneur est supprimé.
-
-- Bind Mounts : La source est un **chemin absolu** sur votre machine hôte.
-- Volumes nommés: La source est le nom choisi d’un **volume Docker existant** ou qui sera **créé manuellement par vous**.
-- Volumes anonymes : **Aucun nom** n’est donné pour la source, seul le chemin de destination est indiqué.
-
-![](../images/volumes.png)
-
 ### 1- Volumes Bind mounts
 
 Les **Volumes bind mounts** sont un des types de volumes que vous pouvez utiliser dans Docker pour partager des données entre votre système hôte et vos conteneurs. Ils permettent de monter un répertoire ou un fichier spécifique du système de fichiers de l’hôte dans un conteneur.
