@@ -146,7 +146,7 @@ Le fichier `.env` contient les variables d'environnement :
 [root@earth]#  vim .env
 CHOWN_HOME=yes
 NB_USER=jovyan
-CHOWN_HOME_OPTS='-R'
+CHOWN_HOME_OPTS=-R
 ```
 ##### 🔹 Lancement du conteneur
 
